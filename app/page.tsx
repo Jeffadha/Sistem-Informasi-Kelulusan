@@ -102,7 +102,7 @@ export default function HomePage() {
             <div className="hidden md:block w-px h-12 bg-white/20"></div>
             <div className="text-center">
               <p className="text-blue-200 text-sm font-semibold uppercase tracking-widest mb-1">Waktu Pengumuman</p>
-              <p className="text-white text-xl font-bold">10:00 WIB</p>
+              <p className="text-white text-xl font-bold">02:00 WIB</p>
             </div>
           </div>
 
@@ -189,7 +189,7 @@ export default function HomePage() {
             {[
               { step: "1", title: "Siapkan NISN", desc: "Pastikan Anda mengetahui Nomor Induk Siswa Nasional (NISN) Anda yang berjumlah 10 digit." },
               { step: "2", title: "Klik Tombol Cek", desc: "Klik tombol di bawah dan masukkan NISN Anda dengan benar pada kolom yang tersedia." },
-              { step: "3", title: "Cetak Bukti", desc: "Jika dinyatakan lulus, Anda dapat langsung mencetak (Print) Keterangan Lulus sementara." }
+              { step: "3", title: "Simpan Bukti", desc: "Jika dinyatakan lulus, Anda dapat langsung mencetak (Print) atau menyimpan halaman ini sebagai bukti kelulusan." }
             ].map((item, idx) => (
               <div key={idx} className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl text-center hover:bg-white/10 transition-colors">
                 <div className="w-12 h-12 bg-amber-500 text-white rounded-full flex items-center justify-center text-xl font-black mx-auto mb-4 shadow-lg">{item.step}</div>
