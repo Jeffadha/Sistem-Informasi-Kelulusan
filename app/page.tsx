@@ -15,7 +15,7 @@ export default function HomePage() {
 
   // Logika Countdown
   useEffect(() => {
-    const targetDate = new Date("2026-05-28T1:30:00+07:00");
+    const targetDate = new Date("2026-05-27T01:30:00+07:00");
 
     const checkTime = () => {
       const now = new Date();
