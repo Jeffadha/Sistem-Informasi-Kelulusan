@@ -21,7 +21,7 @@ function HasilContent() {
     }
 
     // PENGAMAN WAKTU (Mencegah Bypass URL)
-    const targetDate = new Date("2026-05-27T10:00:00+07:00");
+    const targetDate = new Date("2026-05-28T1:30:00+07:00");
     const now = new Date();
     if (now.getTime() < targetDate.getTime()) {
       alert("Portal pengumuman belum dibuka!");
