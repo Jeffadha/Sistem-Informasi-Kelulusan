@@ -134,7 +134,7 @@ export default function HomePage() {
             </svg>
           </div>
           <div>
-            <h4 className="text-blue-400 font-bold text-lg mb-1 tracking-wide">PESAN ALMAMATER</h4>
+            <h4 className="text-blue-400 font-bold text-lg mb-1 tracking-wide">PESAN KELULUSAN</h4>
             <p className="text-white/80 text-sm leading-relaxed">
               Kemanapun langkahmu pergi, bawalah selalu nama baik <span className="font-bold text-white">SMP Negeri 1 Jaten</span>. Jadikan setiap ilmu yang telah kalian dapatkan di bangku sekolah sebagai bekal berharga untuk meraih masa depan yang gemilang.
             </p>
