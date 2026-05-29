@@ -15,7 +15,7 @@ export default function HomePage() {
 
   // Logika Countdown
   useEffect(() => {
-    const targetDate = new Date("2026-05-28T01:30:00+07:00");
+    const targetDate = new Date("2026-06-02T15:00:00+07:00");
 
     const checkTime = () => {
       const now = new Date();
@@ -97,12 +97,12 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-12 mb-8">
             <div className="text-center">
               <p className="text-blue-200 text-sm font-semibold uppercase tracking-widest mb-1">Tanggal Dibuka</p>
-              <p className="text-white text-xl font-bold">Kamis, 28 Mei 2026</p>
+              <p className="text-white text-xl font-bold">Selasa, 2 Juni 2026</p>
             </div>
             <div className="hidden md:block w-px h-12 bg-white/20"></div>
             <div className="text-center">
               <p className="text-blue-200 text-sm font-semibold uppercase tracking-widest mb-1">Waktu Pengumuman</p>
-              <p className="text-white text-xl font-bold">02:00 WIB</p>
+              <p className="text-white text-xl font-bold">15:00 WIB</p>
             </div>
           </div>
 
